@@ -1,5 +1,5 @@
 
-class TwoSums {
+class check {
     public int[] check(int[] nums, int target) {
 
         for (int i=0;i<nums.length;i++){
@@ -15,12 +15,12 @@ class TwoSums {
 
 
 
-public class check {
+public class TwoSums {
     public static void main(String[] args) {
 
         int[] nums = {1, 2, 3, 4, 5};
         int target = 9;
-        TwoSums x = new TwoSums();
+        check x = new check();
 
         int[] res= x.check(nums, target);
         System.out.println(res[0]+" " +res[1]);
