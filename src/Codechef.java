@@ -15,12 +15,15 @@ public class Codechef {
                 System.out.println("ANY");
             }
             else if(a>b){
-                System.out.println("FIRST");
-            }
-            else{
                 System.out.println("SECOND");
             }
+            else{
+                System.out.println("FIRST");
+            }
         }
-    }
 
+
+    }
 }
+
+
